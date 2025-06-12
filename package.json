@@ -1,0 +1,18 @@
+{
+  "name": "oever-art",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "serve": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "sqlite": "^5.1.2",
+    "sqlite3": "^5.1.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": { "vite": "^5.3.4" }
+}
